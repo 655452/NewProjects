@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">Your Logo</div>
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="https://655452.github.io/PortFolio/">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#" id="calculator-button">Calculator</a></li>
+      </ul>
+      <div id="calculator-popup" class="hidden">
+        <div class="calculator">
+          <input style="color: black;" type="text" id="display" readonly>
+          <div class="buttons">
+            <!-- Add calculator buttons here -->
+            <button value="1" onclick="addisplay(this)">1</button>
+            <button value="2" onclick="addisplay(this)">2</button>
+            <button value="3" onclick="addisplay(this)">3</button>
+            <button value="4" onclick="addisplay(this)">4</button>
+            <button value="5" onclick="addisplay(this)">5</button>
+            <button value="6" onclick="addisplay(this)">6</button>
+            <button value="7" onclick="addisplay(this)">7</button>
+            <button value="8" onclick="addisplay(this)">8</button>
+            <button value="9" onclick="addisplay(this)">9</button>
+            <button value="*" onclick="addisplay(this)">*</button>
+            <button value="+" onclick="addisplay(this)">+</button>
+            <button value="-" onclick="addisplay(this)">-</button>
+            <button value="/" onclick="addisplay(this)">/</button>
+            <button value="%" onclick="addisplay(this)">%</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="clearDisplay()">X</button>
+
+          </div>
+        </div>
+      </div>
+      <div class="mobile-menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+
+
+
+    </div>
+  </nav>
+
+
+  <main>
+    <div class="main-screen fade-in ">
+
+      <div class="first-half ">
+
+        <div class="mid-box">
+          <img src="./laptop.jpg" style="object-fit: contain; width: 80%;height: 70%;border-radius: 20px;" alt="">
+        </div>
+
+        <div class="mid-box">
+          <img src="./tech_pic.jpg" style="object-fit: contain; width: 80%;height: 70%;border-radius: 20px;" alt="">
+        </div>
+        <div class="mid-box ">
+          <img src="./tech_pic.jpg" style="object-fit: contain; width: 80%;height: 70%;border-radius: 20px;" alt="">
+        </div>
+        <div class="mid-box">
+          <img src="./bitcoin.jpg" style="object-fit: contain; width: 80%;height: 70%;border-radius: 20px;" alt="">
+        </div>
+
+
+      </div>
+      <div class="other-half">
+        <h1 class="gradient-text color-change">Blockchain </h1>
+      
+        <img src="./bitcoin.jpg" alt="">
+      </div>
+    </div>
+
+
+    <div class="card-container">
+      <div class="card">
+        <img src="./laptop.jpg" alt="Card Image 1">
+        <div class="card-content">
+          <h3>AMD Ryzen 5</h3>
+       
+        <p>Whether you're working, gaming, or streaming, this laptop offers seamless multitasking and stunning visuals. Get ready for a new level of computing excellence with AMD Ryzen 5.</p>
+        <a href="laptop-details.html" class="btn">Learn More</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./tech_pic.jpg" alt="Card Image 2">
+        <div class="card-content">
+          <h3>Technology</h3>
+          <p>"Tech innovation is a constant driver of progress, reshaping industries and improving lives through breakthrough technologies."</p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="animate">
+          <div class="circle bounce">
+
+          </div>
+        </div>
+        <div class="card-content">
+          <h3>Bounce Animation</h3>
+          <p>"Bounce animation adds playful and dynamic motion to user interfaces, creating an engaging and interactive user experience."
+            .</p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="animate">
+          <div class="circle pulse">
+
+          </div>
+        </div>
+        <div class="card-content">
+          <h3>Pulse Animation</h3>
+          <p>"Pulse animation creates a subtle, rhythmic effect that draws attention and adds vibrancy to elements, enhancing user engagement."
+          </p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+
+      <!-- Add more cards here -->
+    </div>
+
+
+    <div class="section-container">
+      <!-- Image on the left side -->
+      <div class="image-container">
+          <img src="./tech_pic.jpg" alt="Image Description">
+      </div>
+      
+      <!-- Content on the right side -->
+      <div class="content-container ">
+        <h2 class="gradient-text">Discover the World of Technology</h2>
+        <p>Technology is rapidly shaping the way we live, work, and connect with the world. From smartphones that fit in our pockets to powerful computers that drive innovation, technology touches every aspect of our lives.</p>
+        <p>In the digital age, staying up-to-date with the latest advancements is crucial. Explore the endless possibilities that technology offers, from artificial intelligence and machine learning to virtual reality and blockchain.</p>
+        <p>Join us on a journey to explore the ever-evolving world of technology and its impact on our future.</p>
+      </div>
+  </div>
+
+  <div class="section-container">
+   
+    
+    <!-- Content on the right side -->
+    <div class="content-container">
+      <h2 class="gradient-text">Explore the Beauty of Nature</h2>
+      <p>Immerse yourself in the awe-inspiring beauty of our natural world. Our collection of breathtaking nature pictures captures the serenity and grandeur of Mother Earth's finest creations.</p>
+      <p>From lush forests to cascading waterfalls, from pristine beaches to towering mountains, our gallery showcases the diversity and magnificence of nature's wonders. Each image is a testament to the Earth's boundless beauty.</p>
+      <p>Join us on a visual journey to explore the enchanting landscapes and tranquil moments that remind us of the importance of preserving and cherishing our planet.</p>
+    </div>
+     <!-- Image on the left side -->
+     <div class="image-container">
+      <img src="./bg.jpg" alt="Image Description">
+  </div>
+</div>
+
+</div>
+
+    <details>
+      <summary>Blockchain </summary>
+      <div class="tags">
+          Tags: <span class="tag">Tag1</span> <span class="tag">Tag2</span>
+      </div>
+      <p>Blockchain technology 📦 is a revolutionary digital ledger system that ensures transparency, security 🔒, and decentralization 🌐. Imagine it as a chain of unbreakable digital blocks 🧱, each containing a record of transactions 🔄. Once a block is added, it's linked to the previous one, forming an unalterable chain 🚀. This tamper-resistant structure has applications beyond cryptocurrencies 🌟, including supply chain tracking 📦, voting systems 🗳️, and more. Blockchain is changing the way we trust, transact, and interact in the digital age 🌐🔗.</p>
+  </details>
+  <details>
+    <summary>AI </summary>
+    <div class="tags">
+        Tags: <span class="tag">Tag1</span> <span class="tag">Tag2</span>
+    </div>
+    <p>
+      Artificial Intelligence (AI) 🤖 is a cutting-edge field of computer science that empowers machines to mimic human intelligence 🧠. It enables computers to learn from data 📊, make decisions 🤔, and perform tasks 🤖 autonomously. AI encompasses various technologies, such as machine learning 📚, natural language processing 🗣️, and computer vision 👁️, making it versatile and transformative. From virtual assistants 📱 to autonomous vehicles 🚗, AI is shaping industries 🏭, improving healthcare 🏥, and enhancing our daily lives 🌟. It's the future of innovation, promising a world of smarter, more efficient, and more connected systems 🌐🤖.
+    </p>
+</details>
+<details>
+  <summary>Stock Market </summary>
+  <div class="tags">
+      Tags: <span class="tag">Tag1</span> <span class="tag">Tag2</span>
+  </div>
+  <p>
+    The stock market 📈📉 is like a bustling financial marketplace where shares of public companies are bought and sold. It's a dynamic ecosystem influenced by various factors like economic indicators 📊, corporate earnings 🏢, and investor sentiment 😃😟. Investors aim to profit by purchasing stocks 📊 when they believe their value will rise and selling when they expect a decline. The stock market plays a pivotal role in economies 🌐, providing companies with capital 💰 and investors with opportunities. It can be a rollercoaster ride, marked by fluctuations 🎢, crashes 📉, and booms 🚀, making it both exciting and challenging for participants 🤑📈.
+  </p>
+</details>
+<details>
+  <summary>Trading </summary>
+  <div class="tags">
+      Tags: <span class="tag">Tag1</span> <span class="tag">Tag2</span>
+  </div>
+  <p>
+    Trading 📊📈 is the process of buying and selling financial assets such as stocks 📈, bonds 📉, currencies 💱, commodities 🛢️, or derivatives 📉 in financial markets. Traders aim to profit from short-term price fluctuations 📈📉 by executing well-timed buy and sell orders 📊. Trading can be done by individuals, institutions, or automated systems, and it takes various forms:
+
+    1. **Stock Trading**: Buying and selling shares of publicly traded companies on stock exchanges.
+    
+    2. **Forex Trading**: Trading foreign currencies in the foreign exchange (Forex) market.
+    
+    3. **Commodity Trading**: Dealing with physical goods like gold 🏅, oil 🛢️, or agricultural products 🌾.
+    
+    4. **Options and Futures Trading**: Speculating on the future price of assets using options and futures contracts.
+    
+    5. **Day Trading**: Opening and closing positions within the same trading day to profit from intraday price movements.
+    
+    6. **Swing Trading**: Holding positions for several days to weeks to capture short-to-medium-term price trends.
+    
+    7. **Algorithmic Trading**: Using computer algorithms to execute high-frequency, automated trades.
+    
+    8. **Crypto Trading**: Buying and selling cryptocurrencies like Bitcoin 🪙 and Ethereum 💎 on cryptocurrency exchanges.
+    
+    Successful trading requires knowledge, analysis, risk management 🛡️, and discipline 🧠. It can be lucrative but also involves substantial risk, and traders may experience gains and losses depending on market conditions and strategies employed.
+  </p>
+</details>
+  </main>
+
+
+  <footer>
+    <section class="social-links">
+      <a href="https://www.whatsapp.com/YourPage" target="_blank">
+        <img style="background-color: rgb(51, 228, 113);"
+          src="https://cdn.jsdelivr.net/npm/simple-icons@4/icons/whatsapp.svg" alt="WhatsApp">
+        <span>Whatsapp</span>
+      </a>
+      <a href="https://www.facebook.com/YourPage" target="_blank">
+        <img style="background-color: rgb(108, 175, 220);"
+          src="https://cdn.jsdelivr.net/npm/simple-icons@4/icons/facebook.svg" alt="Facebook">
+        <span>Facebook</span>
+      </a>
+
+
+      <a href="https://github.com/655452/PortFolio0" target="_blank">
+        <img style="background-color: rgb(82, 239, 229);"
+          src="https://cdn.jsdelivr.net/npm/simple-icons@4/icons/github.svg" alt="Twitter">
+        <span>Github</span>
+      </a>
+      <a href="https://www.instagram.com/YourPage" target="_blank">
+        <img style="background:linear-gradient(45deg,rgb(134, 11, 132),rgb(181, 63, 90));"
+          src="https://cdn.jsdelivr.net/npm/simple-icons@4/icons/instagram.svg" alt="Instagram">
+        <span>Instagram</span>
+      </a>
+      <a href="https://www.linkedin.com/in/asit-bakade-0b9619206/" target="_blank">
+        <img style="background-color: rgb(48, 165, 243);"
+          src="https://cdn.jsdelivr.net/npm/simple-icons@4/icons/linkedin.svg" alt="LinkedIn">
+        <span>LinkedIn</span>
+      </a>
+    </section>
+
+
+  </footer>
+
+  <script src="./script.js
+  "></script>
+  
+
+</body>
+
+</html>
