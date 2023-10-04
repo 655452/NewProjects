@@ -593,7 +593,7 @@ details[open] summary {
         width: 50%;
         height: 20%;
         left: 20%;
-        top: 20%;
+        top: 30%;
       }
 
       .other-half,
@@ -610,7 +610,7 @@ details[open] summary {
         width: 80%;
       }
       .gradient-text{
-        font-size:large;
+        font-size:larger;
 
       }
       .hidden{
