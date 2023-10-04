@@ -288,17 +288,22 @@ button {
     /* background-color: white; */
     background: linear-gradient(45deg,white,transparent);
     border-radius:20px ;
+    width: 200px;
+    height: auto;
 }
 .calculator>input{
   margin-bottom: 1vh;
   border-radius: 20px;
-  padding: 10px;
+  padding: 5px;
   text-align: center;
 }
 .active{
     display: flex;
 }
 .buttons>button{
+ align-content: center;
+  width: 45px;
+  height: 45px;
     background: linear-gradient(45deg,rgb(252, 45, 30),rgb(84, 42, 235));
     border-radius: 50%;
 }
@@ -607,6 +612,9 @@ details[open] summary {
       .gradient-text{
         font-size:large;
 
+      }
+      .hidden{
+        left: 14%;
       }
     }
 
