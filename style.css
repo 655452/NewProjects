@@ -289,6 +289,12 @@ button {
     background: linear-gradient(45deg,white,transparent);
     border-radius:20px ;
 }
+.calculator>input{
+  margin-bottom: 1vh;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+}
 .active{
     display: flex;
 }
@@ -597,6 +603,10 @@ details[open] summary {
       }
       .image-container{
         width: 80%;
+      }
+      .gradient-text{
+        font-size:large;
+
       }
     }
 
